@@ -226,6 +226,12 @@ input, select, textarea {
 		font-size: 0.6rem;
 	}
 
+	#dumbbell {
+		height: 60px;
+		width: 60px;
+		margin-top: 15px;
+	}
+
 	@media screen and (max-width: 736px) {
 
 		h1 {
@@ -238,6 +244,11 @@ input, select, textarea {
 			line-height: 1.5;
 		}
 
+		#dumbbell {
+			margin-top: 10px;
+			height: 50px;
+			width: 50px;
+		}
 	}
 
 	sub {
@@ -1660,8 +1671,3 @@ input, select, textarea {
 			opacity: 0;
 		}
 
-		#dumbbell {
-			height: 60px;
-			width: 60px;
-			margin-top: 15px;
-		}
