@@ -1200,11 +1200,13 @@ input, select, textarea {
 		background-image: url('../../images/splash3.png');
 		background-repeat: no-repeat;
 		background-size: 100%;
-		height: 1000px;
+		height: 800px;
 		width: 100%;
 		background-position: center top;
 		opacity: 0.5;
 		position: absolute;
+		  background-attachment: fixed;
+
 	}
 
 	#wrapper {
