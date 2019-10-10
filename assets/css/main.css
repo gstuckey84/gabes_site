@@ -174,6 +174,7 @@ input, select, textarea {
 
 	p {
 		margin: 0 0 2rem 0;
+		/* text-align: center; */
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -213,7 +214,7 @@ input, select, textarea {
 	}
 
 	h3 {
-		font-size: 1rem;
+		font-size: 1.5rem;
 	}
 
 	h4 {
@@ -1200,12 +1201,13 @@ input, select, textarea {
 		background-image: url('../../images/splash3.png');
 		background-repeat: no-repeat;
 		background-size: 100%;
-		height: 800px;
-		width: 100%;
 		background-position: center top;
-		opacity: 0.5;
+		background-attachment: fixed;
 		position: absolute;
-		  background-attachment: fixed;
+		opacity: 0.5;
+		height: 100%;
+		width: 100%;
+
 
 	}
 
@@ -1585,6 +1587,7 @@ input, select, textarea {
 				-ms-transform: translateY(0);
 				transform: translateY(0);
 				opacity: 1;
+				height: 1000px;
 			}
 
 			#main article .close {
@@ -1688,3 +1691,61 @@ input, select, textarea {
 			opacity: 0;
 		}
 
+		.program-container {
+			width: 100%;
+			height: 100%;
+			display: flex ;
+			flex-flow: row wrap;
+			position:absolute;
+		}
+
+		.program {
+			height: 250px;
+			/* border: solid white 1px; */
+			display: flex ;
+			flex-flow: row wrap;
+			margin-top: 20px;
+			width: 50%;
+		}
+
+		.DSC03494 {
+			height:250px;
+			width: 250px;
+		}
+
+		.pic {
+		}
+
+		.desc {
+
+		}
+
+		.desc-text{
+
+			padding: 70px;
+		}
+
+		.right {
+			text-align: right;
+		}
+
+		.left {
+			text-align: left;
+		}
+
+		@media screen and (max-width: 720px) {
+
+			.DSC03494 {
+				height:160px;
+				width: 160px;
+			}
+
+			.program {
+				height:175px;
+			}
+
+			h3 {
+				font-size: .9rem;
+			}
+
+		}
