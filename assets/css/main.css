@@ -1709,16 +1709,10 @@ input, select, textarea {
 		}
 
 		.DSC03494 {
-			height:250px;
+			height: 250px;
 			width: 250px;
 		}
 
-		.pic {
-		}
-
-		.desc {
-
-		}
 
 		.desc-text{
 
@@ -1736,12 +1730,12 @@ input, select, textarea {
 		@media screen and (max-width: 720px) {
 
 			.DSC03494 {
-				height:160px;
+				height: 160px;
 				width: 160px;
 			}
 
 			.program {
-				height:175px;
+				height: 175px;
 			}
 
 			h3 {
