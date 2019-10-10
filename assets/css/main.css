@@ -1729,7 +1729,7 @@ input, select, textarea {
 
 		@media screen and (max-width: 720px) {
 
-			.DSC03494 {
+			#DSC03494 {
 				height: 160px;
 				width: 160px;
 			}
