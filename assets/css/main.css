@@ -1727,7 +1727,12 @@ input, select, textarea {
 			text-align: left;
 		}
 
-		@media screen and (max-width: 720px) {
+		h3 {
+			clear: both;
+
+		}
+
+		@media screen and (max-width: 600px) {
 
 			#DSC03494 {
 				height: 140px;
@@ -1740,6 +1745,33 @@ input, select, textarea {
 
 			h3 {
 				font-size: .9rem;
+				margin: 0px;
+				padding: 0px;
+				clear: both;
 			}
 
+		}
+
+	
+		@media screen and (max-width: 400px) {
+			#DSC03494 {
+				height: 130px;
+				width: 130px;
+			}
+			.program {
+				height: 130px;
+				width: 130px;
+			}
+
+			h3 {
+				font-size: .65rem;
+				text-align: left;
+			}
+				.right {
+				text-align: left;
+			}
+			.desc-text{
+
+				padding: 40px;
+			}
 		}
