@@ -1708,11 +1708,19 @@ input, select, textarea {
 			width: 50%;
 		}
 
+		.program-3519 {
+			height: 300px;
+		}
+
 		#DSC03494 {
 			height: 250px;
 			width: 250px;
 		}
 
+		#DSC03519 {
+			height: 300px;
+			width: 250px;
+		}
 
 		.desc-text{
 
@@ -1739,8 +1747,17 @@ input, select, textarea {
 				width: 140px;
 			}
 
+			#DSC03519 {
+				height: 170px;
+				width: 140px;
+			}
+
 			.program {
 				height: 140px;
+			}
+
+			.program-3519 {
+				height: 170px;
 			}
 
 			h3 {
@@ -1758,16 +1775,25 @@ input, select, textarea {
 				height: 130px;
 				width: 130px;
 			}
+
+			#DSC03519 {
+				height: 160px;
+				width: 130px;
+			}
 			.program {
 				height: 130px;
 				width: 130px;
 			}
+			
+			.program-3519 {
+				height: 160px;
+			}
 
 			h3 {
-				font-size: .65rem;
+				font-size: .9rem;
 				text-align: left;
 			}
-				.right {
+			.right {
 				text-align: left;
 			}
 			.desc-text{
