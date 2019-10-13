@@ -1819,3 +1819,12 @@ input, select, textarea {
 				padding: 40px;
 			}
 		}
+
+		#phone {
+			text-align: center;
+		}
+
+		#email {
+			text-align: center;
+
+		}
