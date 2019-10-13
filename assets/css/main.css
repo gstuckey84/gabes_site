@@ -232,7 +232,7 @@ input, select, textarea {
 	#dumbbell {
 		height: 60px;
 		width: 60px;
-		margin-top: 15px;
+		margin-top: 12px;
 	}
 
 	@media screen and (max-width: 736px) {
@@ -248,10 +248,28 @@ input, select, textarea {
 		}
 
 		#dumbbell {
-			margin-top: 10px;
+			margin-top: 9px;
 			height: 50px;
 			width: 50px;
 		}
+	}
+
+	@media screen and (max-width: 480px) {
+		#dumbbell {
+			margin-top: 13px;
+			height: 40px;
+			width: 40px;
+		}
+
+	}
+
+	@media screen and (max-width: 360px) {
+	#dumbbell {
+		margin-top: 10px;
+		height: 40px;
+		width: 40px;
+	}
+
 	}
 
 	sub {
