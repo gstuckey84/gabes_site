@@ -928,6 +928,9 @@ input, select, textarea {
 /* Icons */
 
 	ul.icons {
+			/* border: 1px solid green; */
+		margin: auto;
+		width: 142px;
 		cursor: default;
 		list-style: none;
 		padding-left: 0;
